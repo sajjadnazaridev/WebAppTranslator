@@ -18,7 +18,7 @@ WebAppTranslator helps users easily translate their texts into English and Frenc
 
 During the development of this project, I improved my skills in the following areas:
 
-- [[Using Vite to create and manage modern web projects](https://skillicons.dev/icons?i=vite)](https://skillicons.dev)
+- Using Vite to create and manage modern web projects
 - Using Tailwind CSS for fast and responsive design
 - Better understanding of JavaScript concepts and event handling
 - Working with translation APIs and managing requests
