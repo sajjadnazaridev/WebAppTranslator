@@ -33,6 +33,6 @@ During the development of this project, I improved my skills in the following ar
 
 ### UI Project
 
-![Desktop](https://github.com/sajjadnazaridev/WebAppTranlator/blob/public/Desktop-responsive.jpg?raw=true);
+![Desktop](https://github.com/sajjadnazaridev/WebAppTranlator/blob/main/public/Desktop-responsive.jpg?raw=true);
 
 By answering these questions and following this template, you can create a comprehensive and attractive README.md for your project.
