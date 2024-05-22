@@ -1,4 +1,4 @@
-# WebAppTranslator
+# [WebAppTranslator](https://web-app-translator.netlify.app/)
 
 ![WebAppTranslator](https://raw.githubusercontent.com/sajjadnazaridev/WebAppTranslator/main/public/Desktop-responsive.jpg?raw=true)
 
@@ -18,7 +18,7 @@ WebAppTranslator helps users easily translate their texts into English and Frenc
 
 During the development of this project, I improved my skills in the following areas:
 
-- Using Vite to create and manage modern web projects
+- [[Using Vite to create and manage modern web projects](https://skillicons.dev/icons?i=vite)](https://skillicons.dev)
 - Using Tailwind CSS for fast and responsive design
 - Better understanding of JavaScript concepts and event handling
 - Working with translation APIs and managing requests
