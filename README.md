@@ -37,4 +37,4 @@ During the development of this project, I improved my skills in the following ar
 ![Tablet](https://raw.githubusercontent.com/sajjadnazaridev/WebAppTranslator/main/public/Tablet-responsive.jpg?raw=true)
 ![Mobile](https://raw.githubusercontent.com/sajjadnazaridev/WebAppTranslator/main/public/Mobile-responsive.jpg?raw=true)
 
-By answering these questions and following this template, you can create a comprehensive and attractive README.md for your project.
+Thank you for your time!💕😍
