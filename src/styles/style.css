@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: url("../../hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 999px;
+}
+
+textarea::-webkit-scrollbar-track {
+  border-radius: 999px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: #cdd5e0;
+  outline: 1px solid transparent;
+}
+
+button {
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #4d5562;
+  color: #f9fafb;
+  transition: 0.3s;
+}
+
+.active:hover {
+  background-color: #040711;
+}
+
+#unOrderListSuggestions li {
+  margin-right: 1rem;
+  background-color: #212936cc;
+}
+/* Add some styles for body*/
+/* body {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #020617;
+  color: #cbd5e1;
+  font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  background-image: radial-gradient(#0f172a 1px, transparent 0),
+    radial-gradient(#0f172a 1px, transparent 0);
+  background-position: 0 0, 25px 25px;
+  background-attachment: fixed;
+  background-size: 50px 50px;
+  overflow-x: hidden;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+} */
