@@ -1,3 +1,5 @@
+import languages from './language.json';
+
 'use strick';
 
 // Get all the DOM elements
@@ -74,10 +76,8 @@ inputTextReq.addEventListener('input', debounce(() => {
 }, 300));
 
 // Define the async function to get the language code
-async function getLanguageCode(language) {
-    let req = await fetch('./src/js/language.json');
-    let res = await req.json();
-    let item = res.language;
+function getLanguageCode(language) {
+    let item = languages.language;
 
     for (const key in item) {
         if (key === language) {
@@ -131,9 +131,13 @@ btnTranslate.addEventListener('click', throttle(async () => {
     let inputLang = await getSelectedLanguage(inputLangBtns);
     let outputLang = await getSelectedLanguage(outputLangBtns);
 
+    
     if (inputLang && outputLang) {
         inputLang = await getLanguageCode(inputLang);
         outputLang = await getLanguageCode(outputLang);
+
+        console.log(inputLang);
+        console.log(outputLang);
 
         // Send the request and get the translation
         resultTextReq.innerHTML = await sendRequest(inputTextReq.value, inputLang, outputLang);
